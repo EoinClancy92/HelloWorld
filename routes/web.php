@@ -1,6 +1,6 @@
 <?php
 # @Date:   2019-09-17T15:45:42+01:00
-# @Last modified time: 2019-09-24T14:24:27+01:00
+# @Last modified time: 2019-09-24T15:07:20+01:00
 
 
 
@@ -27,3 +27,5 @@ Route::get('/EoinClancy', function () {
 Route::get('/about', function () {
     return '<p>Out and About</p>';
 });
+
+Route::get('/hello', 'HelloController@hello');
